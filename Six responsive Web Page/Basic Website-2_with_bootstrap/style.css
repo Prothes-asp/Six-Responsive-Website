@@ -1,0 +1,13 @@
+.menu{
+    background-color: #8e44ad;
+}
+.image{
+    height: 400px;
+    width: 100%;
+}
+.ftr{
+    background-color: gray;
+}
+body{
+    background-color: rgba(184, 174, 174, 0.295);
+}

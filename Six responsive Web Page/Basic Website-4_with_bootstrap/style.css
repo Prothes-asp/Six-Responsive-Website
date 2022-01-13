@@ -1,0 +1,236 @@
+.buy-btn:hover{
+    color:white !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:700;
+}
+p,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/*Header Section*/
+header ul li a{
+    font-weight:500;
+}
+header ul li ul li a{
+    font-weight:500 !important; 
+}
+header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.menu-space .nav-link{
+   padding-left:20px !important;
+   padding-right:20px !important;
+}
+
+
+/* Banner Section */
+.banner-section{
+    background-image: url('bner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+    background-attachment: fixed;
+    padding:130px 0px;
+    position: relative;
+    top:73px;
+    z-index:1;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    height:100%;
+    width:100%;
+    background: rgba(0, 0, 0, 0.425);
+    z-index:-1;
+}
+.banner-section .banner-content p{
+    font-size: 20px;
+}
+.banner-section .srch-box .text-box:focus{
+    box-shadow:2px 2px 10px 0px #0dcaf0;
+}
+.banner-section .submit-btn .src-btn:focus{
+    box-shadow:2px 2px 10px 0px #0dcaf0;
+}
+
+
+/* Counter Section */
+.counter-section{
+    background: #fff;
+    padding:100px 0px 100px 0px;
+}
+
+/* About Section */
+.about-section{
+    background-color: #fff;
+    padding:50px 0px 100px 0px;
+}
+
+/* Feature Section */
+.feature-heading{
+    background-color: #f7f9f7;
+    padding:50px 0px 100px 0px;
+}
+.feature-gallary{
+    background-color: #f7f9f7;
+    padding-bottom:80px;
+}
+.feature-gallary .feature-item .feture-img{
+    width:40%;
+}
+.feature-gallary .feature-item .feture-img img{
+    height:180px;
+}
+.feature-gallary .feature-item .feture-img-content{
+    width: 58%;
+}
+
+/* Portfolio Section */
+.portfolio-header{
+    padding:100px 0px;
+    background-color: #fff;
+}
+.portfolio-gallary{
+    background-color: #fff;
+}
+.portfolio-gallary .portfolio-img a img{
+    height:200px;
+    width:100%;
+}
+.portfolio-gallary .portfolio-img a{
+    position: relative;
+    display: block;
+}
+.portfolio-gallary .portfolio-img a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#0000008f;
+    visibility: hidden;
+    opacity: 0;
+    transition:.4s;
+}
+.portfolio-gallary .portfolio-img:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Pricing Section */
+.pricing-section{
+    padding:100px 0px 60px 0px;
+    background-color: #f7f9f7;
+}
+.pricing-table{
+    background-color: #f7f9f7;
+    padding:0px 0px 100px 0px;
+}
+.pricing-table .accessbtn .access-btn{
+    color: #0dcaf0;
+    font-size:20px;
+    padding:10px 25px;
+}
+.pricing-table .accessbtn .access-btn:hover{
+    color: #fff;
+    background-color: #0dcaf0;
+}
+.pricing-table ul li span{
+    display: inline-block;
+    width:30px;
+}
+
+/* Feedback Section */
+.feedback-section{
+    background-color: #fff;
+    padding:100px 0px 50px 0px;
+}
+.feedback-section .feedback-heading p{
+    max-width:500px;
+    margin: auto;
+    margin-top:50px;
+}
+.feedback-section .feedback-heading .feedback-icon{
+    opacity: 0.2;
+}
+.feedback-section .feedback-heading .feedback-heading-img{
+    max-width:200px;
+    margin: auto;
+    margin-top: 50px;
+}
+.feedback-section .feedback-heading .feedback-heading-img img{
+    width:80px;
+}
+.feedback-section .feedback-heading .feedback-heading-img .user-details{
+    text-align: left;
+    position: relative;
+    top:17px;
+    margin-left: 15px;
+}
+
+/* About Section */
+.about-section{
+    background-color: #f7f9f7;
+}
+.about-section .about-content p{
+    text-align: justify;
+}
+
+.about-team-section{
+    background-color: #f7f9f7;
+    padding-bottom:50px;
+}
+
+.about-team-section .card img{
+    height: auto;
+    width: 120px;
+    margin-top: -70px;
+    position: relative;
+    left:calc(46% - 53px);
+}
+
+/* Contact Section */
+.contact-section{
+    background-color: #fff;
+    padding:100px 0px;
+}
+.contact-form{
+    background-color: #fff;
+    padding-bottom:100px;
+}
+.contact-form input{
+    border: none;
+    outline: none;
+}
+.contact-form textarea{
+    border: none;
+    outline: none;
+}
+
+
+/* I-phone-app Section */
+.iphone-app-Section-heading{
+    padding-top:20px;
+    background-color: #fff;
+}
+.iphone-button{
+    padding:50px 0px;
+}
+.iphone-img{
+    padding-bottom:100px;
+}
+
+
+/* Footer Section */
+.footer-section{
+    background-color: #8585855d;
+}

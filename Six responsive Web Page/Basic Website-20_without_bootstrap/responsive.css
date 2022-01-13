@@ -1,0 +1,475 @@
+@media all and (max-width:1280px) {
+    .middle-content{
+        width: 90%;
+        max-width: 90%;
+        margin: auto;
+    }
+    .pricing-item {
+            width: 27%;
+            margin-left: 40px;
+            margin-right: 0px;
+    }
+    .contact-form input {
+        margin-bottom: 20px;
+    }
+    .contact-heading h1 {
+        font-size: 40px;
+    }
+    textarea {
+        margin-bottom: 35px;
+    }
+}
+@media all and (max-width:1133px){
+    nav ul li {
+        padding-left:0px;
+    }
+}
+
+nav span.bar-icon{
+    display: none;
+}
+.moblie-check-box{
+ display: none;
+}
+@media all and (max-width:1272px){
+    .items2 {
+        padding: 46px 15px;
+    }
+    .items1 img {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+}
+@media all and (max-width:1100px){
+    .vdo-content .content-right p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .vdo-content .content-right h2 {
+        font-size: 28px;
+        line-height: 37px;
+        padding: 0px 0px 13px 0px;
+    }
+
+    .pricing-item .pricing-details ul li {
+        margin: 20px 0px;
+        font-size: 16px;
+    }
+    .pricing-item .pricing-details ul li span {
+        margin-right: 5px;
+    }
+}
+
+
+@media all and (max-width:1036px){
+    .service-section .service-item .service-box .s-text h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .service-section .service-item .service-box .s-icon {
+        width: 43px;
+        font-size: 34px;
+        margin-right: 14px;
+    }
+}
+
+@media all and (max-width:949px){
+    .items2 p {
+        font-size: 18px;
+    }
+    .items2 h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width:992px){
+    .vdo-content .vedeo-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .vdo-content .content-right {
+        float: none;
+        width: 100%;
+    }
+
+    .service-section .service-heading h1 {
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .service-section .service-item {
+        margin-top: 55px;
+    }
+
+    .service-section .service-item .service-box {
+        max-width: 48%;
+    }
+
+
+    .service-section .service-item .service-box:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .service-section .service-item .service-box:nth-child(2n+2) {
+        margin-right: 0px;
+    }
+    .price-section .price-heading p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .price-section .price-heading h1 {
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .service-section .service-item .service-box .s-icon {
+        min-height: 110px;
+    }
+
+    .service-section .service-item .service-box {
+        margin-bottom: 0px;
+    }
+    .pricing-item{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .team-section .team-heading h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+
+
+    .team-member .member {
+        width: 48%;
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width:866px){
+    .header-logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header-logo a{
+        display: flex;
+        justify-content: center;
+    }
+    .header-logo img{
+        float:inherit;
+    }
+    .header-button{
+        width: 200px;
+        position: absolute;
+        right: 64px;
+        top: 65px;
+
+    }
+    .feedback-section .feedback-heading h2 {
+        font-size: 35px;
+    }
+    .feedback-section .feedback-heading p {
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .testimonials-items .t-item {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .testimonials-items {
+        margin-top: 80px;
+    }
+
+    .contact-section .contact .left-contact {
+        float: none;
+        width: 100%;
+    }
+    .contact-section .contact .right-contact {
+        float: none;
+        width: 100%;
+    }
+    .contact-section .contact .right-contact h2 {
+        margin-top: 20px;
+    }
+    .contact-heading {
+        padding: 0px 0px 55px 0px;
+    }
+    .contact-section {
+        padding: 50px 0px;
+    }
+
+    /* For Menu */
+    nav {
+        width: 100%;
+        line-height: 0px;
+    }
+
+    nav ul{
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+
+    nav span.bar-icon{
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+        margin-bottom: 39px;
+        position: absolute;
+        top: 75px;
+        pointer-events: none;
+    }
+    nav .ul-one li a{
+        font-size: 14px !important;
+    }
+    nav .ul-one li ul {
+        left: 50px;
+        top: 50%;
+    }
+    nav .ul-one li{
+        display: block;
+    }
+    nav .ul-one li {
+        padding-left: 0px;
+        margin-bottom: 30px;
+    }
+    nav .ul-one li .ul-two li{
+        margin-bottom: 30px;
+    }
+    /* For responsive mobile menu*/
+    nav .moblie-check-box:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        text-align: left;
+    }
+    .moblie-check-box {
+        width: 28px;
+        height: 28px;
+        margin-bottom: 35px;
+        opacity: 0;
+        cursor: pointer;
+        display: block;
+    }
+}
+
+
+
+@media all and (max-width:768px){
+    section .banner-content h2{
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 41px;
+    }
+
+    section .banner-content h3 {
+        font-size: 20px;
+    }
+    .default-all-button-style{
+        font-size: 20px;
+        padding: 13px 20px;
+    }
+
+
+
+    .service-section .service-item .service-box {
+        max-width: 100%;
+    }
+    .service-section .service-item .service-box:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .service-section .service-item .service-box:nth-child(2n+2) {
+        margin-right: 20px;
+    }
+    .service-section .service-item .service-box:nth-child(1n+1) {
+        margin-right: 20px;
+    }
+    .service-section .service-item .service-box .s-icon {
+        min-height: 70px;
+    }
+    .blog-section .blog-top .blogHeading {
+        font-size: 25px;
+    }
+    .blog-section .blog-top .blogContent p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:575px){
+    .header-logo{
+        margin-left: -70px;
+    }
+
+    .header-button{
+        width: 200px;
+        position: absolute;
+        right: 144px;
+        top: 65px;
+
+    }
+
+    .service-section .service-heading h1 {
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 12px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+
+    .service-section .service-heading p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .service-section .service-item {
+        margin-top: 35px;
+    }
+
+    section{
+        padding: 145px 0px;
+    }
+
+    .price-section .price-heading h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .price-section .price-heading p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .service-section .service-item .service-box .s-text h2 {
+        margin-bottom: 0px;
+    }
+    .service-section .service-item .service-box .s-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .team-member .member {
+        float: none;
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .newsLetterSection .newsLetterHeading h2 {
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+
+    .newsLetterSection .newsLetterHeading p {
+        font-size: 16px;
+    }
+
+    .newslwtter-form .inputDefault {
+        width: 80%;
+        font-size: 14px;
+        margin-right: 0px;
+    }
+    .newslwtter-form .subminBtn {
+        width: 40%;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .blog-section .blog-top .blogHeading {
+        font-size: 20px;
+    }
+    .blog-section .blog-top .blogContent p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .blog-section .blog-bottom .left-items {
+        float: none;
+        width: 100%;
+    }
+    .blog-section .blog-bottom .right-items {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .feedback-section .feedback-heading h2{
+        font-size: 25px;
+    }
+    .feedback-section .feedback-heading p {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .feedback-section {
+        padding: 60px 0px;
+    }
+}
+
+@media all and (max-width:391px){
+    .default-all-button-style{ 
+        text-align: center;
+        font-size: 15px;
+        padding: 13px 20px;
+        display: block;
+        margin-bottom: 15px !important;
+        border-radius: 20px;
+    }
+    
+    section .banner-content h2{
+        font-size: 30px;
+    }
+
+    .service-section .service-item .service-box .s-icon {
+        min-height: 105px;
+    }
+    .team-member .member p {
+        font-size: 16px;
+    }
+    .team-member .member h2 {
+        font-size: 20px;
+    }
+    .team-member .member .member-title {
+        padding: 30px 0px 30px 10px;
+    }
+    .blog-section .blog-top .blogHeading {
+        float: none;
+        width: 100%;
+    }
+    .blog-section .blog-top .blogContent {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .header-button {
+        right: 53px;
+        top: 72px;
+    }
+    .header-logo {
+        margin-left: -11px;
+    }
+}

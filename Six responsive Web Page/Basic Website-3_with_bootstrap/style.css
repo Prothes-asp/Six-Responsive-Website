@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Header Or Nav Section */
+
+.navbar img{
+    width: 100px;
+    height: auto;
+}
+.navbar .collapse ul{
+    text-align: center;
+}
+.navbar .collapse ul li a{
+    padding:10px 40px !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .collapse ul li a:hover{
+    background-color: rgba(36, 34, 34, 0.068);
+    transition: 2s;
+}
+
+/* Banner Section */
+
+.banner{
+    background-image: url('banners.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.banner .contents{
+    text-align: center;
+    padding: 300px 0px;
+    color: white;
+}
+.banner .contents h2{
+    background-color: rgba(34, 31, 31, 0.685);
+    display: inline-block;
+    padding:5px 25px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.banner .contents h1{
+    background-color: rgba(19, 117, 209, 0.39);
+    max-width:380px;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 25px;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+
+/*About Section*/
+.about{
+    background-color: #041549;
+}
+
+
+/*Service Section*/
+.service{
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.anim:hover{
+    transform: translateY(15px);
+    transition: 1.5s;
+}
+
+/* Content Section */
+.content{
+    background-color: rgba(172, 172, 172, 0.753);
+}
+.content img{
+    max-width: 80%;
+}
+.content .txt p{
+    text-align: justify;
+}
+
+.content .right-content ul{
+    list-style: none;
+}
+
+.content .right-content ul li{
+    border: 1px dotted gray;
+    margin-top:10px;
+    border-radius: 10px;
+}
+.content .right-content ul li a{
+    padding:10px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.content .right-content h2{
+    margin-left:30px;
+    border-bottom:1px solid gray;
+    padding:0px 0px 10px 0px;
+}
+
+/* Contact Section */
+
+
+
+
+/* Footer Section*/
+
+.footer p{
+    margin-bottom: 0px;
+    margin-top:10px;
+}
+.footer .social-icon ul{
+    list-style: none;
+    margin-bottom: 0px;
+}
+.footer .social-icon ul li{
+    display: inline-block;
+    margin-left:25px;
+}
+.footer .social-icon ul li a{
+    font-size:25px;
+}
